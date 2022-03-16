@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/spar/static/css/main.073c9b0a.css",
-    "main.js": "/spar/static/js/main.01d3dd14.js",
+    "main.css": "/spar/static/css/main.b8768554.css",
+    "main.js": "/spar/static/js/main.e0b5735b.js",
     "static/js/787.c0f3922c.chunk.js": "/spar/static/js/787.c0f3922c.chunk.js",
+    "static/media/sparheaderMain.png": "/spar/static/media/sparheaderMain.1c277787ba6725f87ef0.png",
+    "static/media/logo_nav.png": "/spar/static/media/logo_nav.fa282bacdc08f9837c62.png",
+    "static/media/sparbg.png": "/spar/static/media/sparbg.1ae5c694e00b049bd822.png",
     "index.html": "/spar/index.html",
-    "main.073c9b0a.css.map": "/spar/static/css/main.073c9b0a.css.map",
-    "main.01d3dd14.js.map": "/spar/static/js/main.01d3dd14.js.map",
+    "static/media/arrow_left.svg": "/spar/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
+    "static/media/arrow_right.svg": "/spar/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
+    "main.b8768554.css.map": "/spar/static/css/main.b8768554.css.map",
+    "main.e0b5735b.js.map": "/spar/static/js/main.e0b5735b.js.map",
     "787.c0f3922c.chunk.js.map": "/spar/static/js/787.c0f3922c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.01d3dd14.js"
+    "static/css/main.b8768554.css",
+    "static/js/main.e0b5735b.js"
   ]
 }
