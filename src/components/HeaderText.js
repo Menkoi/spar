@@ -2,8 +2,10 @@ import React from "react";
 
 function HeaderText() {
   return (
-    <h2>
-      Lorem Ipsum
+    <div>
+      <h1>
+        Lorem Ipsum
+      </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ultricies leo
@@ -13,7 +15,9 @@ function HeaderText() {
         Morbi tincidunt augue interdum velit euismod in pellentesque. Congue eu
         consequat ac felis donec et.
       </p>
-    </h2>
+
+  </div>
+    
   );
 }
 

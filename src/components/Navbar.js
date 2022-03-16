@@ -10,7 +10,8 @@ function Navbar() {
           <img src={Logo} className="NavPhoto" alt=""></img>
           </span>
         <MDBAnimation type="pulse" infinite>
-        <button type="button" class="btn btn-danger btn-sm">Login</button>
+        <button type="button" class="btn grey lighten-4 btn-sm">Login</button>
+        <button type="button" class="btn btn-danger btn-sm">Register</button>
         </MDBAnimation>
       </div>
     </nav>

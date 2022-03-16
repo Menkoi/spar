@@ -5,7 +5,7 @@ import {SiMicrosoftoutlook} from "react-icons/si";
 
 function Footer() {
     return(
-        <footer class="footer py-2 bg-dark">
+        <footer class="footer py-2 elegant-color">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-left"></div>
