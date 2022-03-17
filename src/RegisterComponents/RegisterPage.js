@@ -1,14 +1,13 @@
 import React from "react";
-import LoginNav from "./LoginNav";
+import Navbar from '../LoginComponents/LoginNav';
 import { MDBAnimation } from "mdbreact";
 
-function LoginPage() {
-    
+function RegisterPage() {
     return(
         <div>
-            <LoginNav></LoginNav>
+            <Navbar></Navbar>
             <h1>
-                Login
+                Register
             </h1>
             <MDBAnimation type="flash" infinite>
             <p>Under Construction</p>
@@ -17,4 +16,4 @@ function LoginPage() {
     );
 }
 
-export default LoginPage;
+export default RegisterPage;

@@ -15,7 +15,6 @@ function HeaderText() {
         Morbi tincidunt augue interdum velit euismod in pellentesque. Congue eu
         consequat ac felis donec et.
       </p>
-
   </div>
     
   );
