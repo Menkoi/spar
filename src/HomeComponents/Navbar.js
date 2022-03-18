@@ -9,9 +9,7 @@ function Navbar() {
     <nav class="navbar navbar-inverse elegant-color" sticky="top">
       <div class="container-fluid">
         <span class="navbar-brand mb-0 h1 text-light">
-        <a href="./spar">
           <img src={Logo} className="NavPhoto" alt=""></img>
-          </a>
         </span>
         <MDBAnimation type="pulse" infinite>
 
