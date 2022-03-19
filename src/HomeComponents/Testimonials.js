@@ -14,9 +14,9 @@ function Testimonials () {
           <div class="card-body elegant-color" className="TestBody">
             <img src={Placeholder} className="TestImg" alt=""></img>
             <p class="text-light">
-              A well-known quote, contained in a blockquote element.
+              "A well-known quote, contained in a blockquote element."
             </p>
-            <footer class="blockquote-footer">
+            <footer class="blockquote-footer text-light">
               Someone famous in <cite title="Source Title">Source Title</cite>
             </footer>
           </div>
@@ -26,10 +26,10 @@ function Testimonials () {
           <div class="card-body elegant-color" className="TestBody">
             <img src={Placeholder} className="TestImg" alt=""></img>
             <p class="text-light">
-              A well-known quote, contained in a blockquote element.
+              "A well-known quote, contained in a blockquote element."
             </p>
-            <footer class="blockquote-footer">
-              Someone famous in <cite title="Source Title">Source Title</cite>
+            <footer class="blockquote-footer text-light">
+              Someone famous in <cite title="Source Title" >Source Title</cite>
             </footer>
           </div>
         </div>

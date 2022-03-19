@@ -5,7 +5,7 @@ function LoginNav () {
     return(
         <nav class="navbar navbar-inverse elegant-color">
       <div class="container-fluid">
-        <span class="navbar-brand mb-0 h1 text-light">
+        <span class="navbar-brand mb-0 h1">
         <a href="./spar">
           <img src={Logo} className="NavPhoto" alt=""></img>
           </a>
