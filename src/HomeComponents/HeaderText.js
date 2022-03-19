@@ -4,7 +4,7 @@ function HeaderText() {
   return (
     <div>
       <h1>
-        Lorem Ipsum
+        What is Spar?
       </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

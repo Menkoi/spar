@@ -1,5 +1,7 @@
 import React from "react";
-import Placeholder from "../img/sparbg.png";
+import PersonOne from "../img/PersonOne.png";
+import PersonTwo from "../img/PersonTwo.png";
+
 
 function Testimonials () {
     return (
@@ -12,24 +14,26 @@ function Testimonials () {
         </p>
         <div class="card text-center" className="Testmoinal">
           <div class="card-body elegant-color" className="TestBody">
-            <img src={Placeholder} className="TestImg" alt=""></img>
+            <img src={PersonOne} className="TestImg" alt=""></img>
             <p class="text-light">
-              "A well-known quote, contained in a blockquote element."
+              "I have always wanted to be recognized by my local community
+              and thanks to Spar, I finally got it!"
             </p>
             <footer class="blockquote-footer text-light">
-              Someone famous in <cite title="Source Title">Source Title</cite>
+              Marques Brown <cite title="Source Title">New York</cite>
             </footer>
           </div>
         </div>
 
         <div class="card text-center" className="Testmoinal">
           <div class="card-body elegant-color" className="TestBody">
-            <img src={Placeholder} className="TestImg" alt=""></img>
+            <img src={PersonTwo} className="TestImg" alt=""></img>
             <p class="text-light">
-              "A well-known quote, contained in a blockquote element."
+              "I was looking for a way to stay in shape and Spar 
+              was the perfect tool to achieve my goals!"
             </p>
             <footer class="blockquote-footer text-light">
-              Someone famous in <cite title="Source Title" >Source Title</cite>
+              John Titor <cite title="Source Title" >Atlanta</cite>
             </footer>
           </div>
         </div>
