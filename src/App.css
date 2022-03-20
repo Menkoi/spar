@@ -56,6 +56,13 @@ border-radius: 5px;
 padding: 10px;
 }
 
+.LoginCard {
+  background: #D80000;
+  background: -moz-linear-gradient(45deg, #D80000 0%, #C00000 20%, #2E2E2E 100%);
+  background: -webkit-linear-gradient(45deg, #D80000 0%, #C00000 20%, #2E2E2E 100%);
+  background: linear-gradient(45deg, #D80000 0%, #C00000 20%, #2E2E2E 100%);
+}
+
 @keyframes fade {
   from {opacity: 0.0}
   to {opacity: 1}

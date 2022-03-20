@@ -13,13 +13,8 @@ function Navbar() {
         </span>
         <MDBAnimation type="pulse" infinite>
 
-          <button type="button" class="btn grey lighten-4 btn-sm" href="/LoginPage">
-          <Link to="/Login" class="nav-link text-dark"> Login</Link>
-          </button>
-          
-          <button
-            type="button" class="btn btn-danger btn-sm">
-            <Link to="/Register" class="nav-link text-dark"> Register</Link>
+          <button type="button" class="btn btn-light btn-sm" href="/LoginPage">
+          <Link to="/Login" class="nav-link text-dark"> Login / Register</Link>
           </button>
         </MDBAnimation>
       </div>
