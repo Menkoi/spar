@@ -18,6 +18,12 @@ function LoginForm() {
       })
   })
   const data = await response.json()
+  if(data.user) {
+    alert('Login Sucessful')
+    window.location.href = '/AccHome'
+  } else {
+    alert('Check username and password')
+  }
 console.log(data)
 }
   return (
@@ -44,7 +50,7 @@ console.log(data)
                   <div className="text-center py-4 mt-3">
                     <button type="button submit"  value="Login"class="btn danger-color-dark btn-md text-light">
                         {" "}
-                        Login Test
+                        Login
                     </button>
                   </div>
                 </form>
@@ -53,8 +59,6 @@ console.log(data)
           </MDBCol>
         </MDBRow>
       </MDBContainer>
-
-      
     </div>
   );
 }

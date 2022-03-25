@@ -3,12 +3,17 @@ const app = express()
 const cors = require('cors')
 const mongoose = require('mongoose')
 const User = require('./models/user.model')
+const jwt = require("jsonwebtoken")
+require('dotenv').config()
 
 /* Middleware */
 app.use(cors())
 app.use(express.json())
 
-mongoose.connect('NEED TO ADD MONGO CONNECTION')
+const api_key = process.env.API_KEY;
+const jwt_token = process.env.JWT_TOKEN;
+
+mongoose.connect(`mongodb+srv://${api_key}`)
 
 app.post('/api/register', async (req, res) => {
     try {
@@ -20,6 +25,7 @@ app.post('/api/register', async (req, res) => {
        res.json({ status: 'ok'})
     } catch(err) {
         res.json({ status: 'error', error: 'Duplicate email'})
+        alert('Duplicate Information')
     }
 })
 
@@ -30,7 +36,14 @@ app.post('/api/login', async (req, res) => {
         })
 
         if(user) {
-            return res.json({ status: 'ok', user: true })
+            const token = jwt.sign(
+                {
+                name: user.name,
+                email: user.email,
+                }, `${jwt_token}`
+            )
+
+            return res.json({ status: 'ok', user: token })
         } else {
             return res.json({ status: 'error', user: false })
         }
