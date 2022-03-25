@@ -20,7 +20,7 @@ function LoginForm() {
   const data = await response.json()
   if(data.user) {
     alert('Login Sucessful')
-    window.location.href = 'AccHome'
+    window.location.href = '/AccHome'
   } else {
     alert('Check username and password')
   }
