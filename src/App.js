@@ -10,10 +10,10 @@ import AccHome from './AccountHome/AccHome';
 function App() {
   return (
     <div className="App">
-      <Route path="/" exact component={Home} />
-      <Route path="/spar" exact component={Home} />
-      <Route path="/Login" exact component={LoginPage} />
-      <Route path="/AccHome" exact component={AccHome} />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/spar" component={Home} />
+      <Route exact path="/Login" component={LoginPage} />
+      <Route exact path="/AccHome" component={AccHome} />
     </div>
   );
 }
