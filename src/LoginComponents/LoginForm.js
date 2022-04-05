@@ -10,7 +10,7 @@ function LoginForm() {
     const response = await fetch('http://localhost:1337/api/login', {
       method: 'POST',
       headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'application/json; charset=utf-8',
       },
       body: JSON.stringify({
           name,
@@ -19,6 +19,7 @@ function LoginForm() {
   })
   const data = await response.json()
   if(data.user) {
+    localStorage.setItem('token', data.user)
     alert('Login Sucessful')
     window.location.href = '/AccHome'
   } else {

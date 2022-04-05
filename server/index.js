@@ -7,13 +7,15 @@ const jwt = require("jsonwebtoken")
 require('dotenv').config()
 
 /* Middleware */
-app.use(cors())
 app.use(express.json())
+app.use(cors())
 
 const api_key = process.env.API_KEY;
 const jwt_token = process.env.JWT_TOKEN;
 
 mongoose.connect(`mongodb+srv://${api_key}`)
+
+
 
 app.post('/api/register', async (req, res) => {
     try {
@@ -47,6 +49,21 @@ app.post('/api/login', async (req, res) => {
         } else {
             return res.json({ status: 'error', user: false })
         }
+})
+
+app.get('/api/login', async (req, res) => {
+
+    const token = req.headers['x-access-token']
+
+    try {
+        const decoded = jwt.verify(token, `${jwt.token}`)
+        const name = decoded.name
+        const user = await User.findOne({ name: name })
+        return {status: 'ok', quote:user.quote}
+    } catch(error) {
+        console.log(error)
+        res.json({status: 'error', error: 'invaild token' })
+    }
 })
 
 app.listen(1337, () => {

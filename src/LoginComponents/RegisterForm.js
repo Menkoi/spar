@@ -1,7 +1,9 @@
 import {useState} from 'react';
+import { useHistory } from 'react-router-dom'
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody  } from "mdbreact";
 
 function RegisterForm() {
+  const history = useHistory()
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
@@ -22,6 +24,7 @@ function RegisterForm() {
       const data = await response.json()
       if (data.status === 'ok') {
         alert('Registration Sucessful. Please Log in above.')
+        history.push('/AccHome')
       } else {
         alert('something went wrong,')
       }
