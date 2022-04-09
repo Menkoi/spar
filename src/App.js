@@ -15,6 +15,7 @@ function App() {
       <Route exact path="/Login" component={LoginPage} />
       <Route exact path="/AccHome" component={AccHome} />
     </div>
+    
   );
 }
 

@@ -1,5 +1,4 @@
 import React from "react";
-import Placeholder from '../img/sparbg.png'
 import Teams1 from '../img/teams1.png'
 import Teams2 from '../img/teams2.png'
 import Teams3 from '../img/teams3.jpg'

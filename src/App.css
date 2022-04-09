@@ -63,6 +63,12 @@ padding: 10px;
   background: linear-gradient(45deg, #D80000 0%, #C00000 20%, #2E2E2E 100%);
 }
 
+.SparMap {
+  width: 70vw;
+  position: center;
+  height: 80vh;
+}
+
 @keyframes fade {
   from {opacity: 0.0}
   to {opacity: 1}
