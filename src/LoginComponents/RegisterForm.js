@@ -76,7 +76,7 @@ function RegisterForm() {
                         class="btn danger-color-dark btn-md text-light"
                       >
                         {" "}
-                        Register Test
+                        Register
                       </button>
                     </div>
                   </form>

@@ -10,7 +10,7 @@ function LoginForm() {
     const response = await fetch('http://localhost:1337/api/login', {
       method: 'POST',
       headers: {
-          'Content-Type': 'application/json; charset=utf-8',
+          'Content-Type': 'application/json',
       },
       body: JSON.stringify({
           name,

@@ -8,9 +8,7 @@ function Testimonials () {
       <div class="container">
         <h1 className="OurTeams">Testimonials</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error
-          amet numquam iure provident voluptate esse quasi, veritatis totam
-          voluptas nostrum quisquam eum porro a pariatur veniam.
+          Dont believe us? Look at what users are saying about about Spar!
         </p>
         <div class="card text-center" className="Testmoinal">
           <div class="card-body elegant-color" className="TestBody">

@@ -15,8 +15,6 @@ const jwt_token = process.env.JWT_TOKEN;
 
 mongoose.connect(`mongodb+srv://${api_key}`)
 
-
-
 app.post('/api/register', async (req, res) => {
     try {
          await User.create({
@@ -33,14 +31,14 @@ app.post('/api/register', async (req, res) => {
 
 app.post('/api/login', async (req, res) => {
         const user = await User.findOne({
-            name: req.body.name,
+            email: req.body.email,
             password: req.body.password,
         })
 
         if(user) {
             const token = jwt.sign(
                 {
-                name: user.name,
+                password: user.password,
                 email: user.email,
                 }, `${jwt_token}`
             )
@@ -57,8 +55,8 @@ app.get('/api/login', async (req, res) => {
 
     try {
         const decoded = jwt.verify(token, `${jwt.token}`)
-        const name = decoded.name
-        const user = await User.findOne({ name: name })
+        const email = decoded.email
+        const user = await User.findOne({ email: email })
         return {status: 'ok', quote:user.quote}
     } catch(error) {
         console.log(error)
