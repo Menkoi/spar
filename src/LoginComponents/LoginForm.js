@@ -1,5 +1,6 @@
 import { MDBContainer, MDBRow, MDBCol, MDBCard, MDBCardBody  } from "mdbreact";
 import React, { useState } from "react";
+import {Link} from 'react-router-dom';
 
 function LoginForm() {
   const [name, setName] = useState('')
@@ -30,6 +31,10 @@ console.log(data)
   return (
     <div class="container">
       <h1>Already Have a Account?</h1>
+      <p>This site is just a demo. To skip login click the button below</p>
+      <button type="button" class="btn btn-light btn-sm">
+      <Link to="/AccHome" class="nav-link text-dark">Dashboard</Link>
+      </button>
       <MDBContainer>
         <MDBRow>
           <MDBCol md="12">
