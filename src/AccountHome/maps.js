@@ -3,8 +3,7 @@ import {MapContainer, TileLayer, Marker} from 'react-leaflet';
 
 
 function SparMaps() {
-
-  const Username = process.env.REACT_APP_USER;
+  
   const access_token = process.env.REACT_APP_ACCESS_TOKEN;
 
   const position = [33.7490, -84.3880]
@@ -14,7 +13,7 @@ function SparMaps() {
         <MapContainer center={position} zoom={13} scrollWheelZoom={true}>
           <TileLayer
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-            url={`https://api.mapbox.com/styles/v1/${Username}/cl1t8e65i001614rqfbqvb9de/tiles/256/{z}/{x}/{y}@2x?access_token=${access_token}`}
+            url={`https://api.mapbox.com/styles/v1/celaeon/cl1t8e65i001614rqfbqvb9de/tiles/256/{z}/{x}/{y}@2x?access_token=${access_token}`}
           />
           <Marker position={position}></Marker>
         </MapContainer>
