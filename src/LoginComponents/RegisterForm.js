@@ -36,8 +36,7 @@ function RegisterForm() {
 
                     <div className="text-center py-4 mt-3">
                       <button
-                        type="button submit"
-                        value="Register"
+                        type="button"
                         class="btn danger-color-dark btn-md text-light"
                       >
                         {" "}

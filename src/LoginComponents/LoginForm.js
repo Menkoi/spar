@@ -26,9 +26,9 @@ function LoginForm() {
                   <input 
                   type="password" className="form-control" />
                   <div className="text-center py-4 mt-3">
-                    <button type="button submit"  value="Login"class="btn danger-color-dark btn-md text-light">
-                        {" "}
-                        Login
+                    <button type="button" class="btn danger-color-dark btn-md text-light">
+                    <Link to="/AccHome" class="text-light">Login</Link>
+                        
                     </button>
                   </div>
                 </form>
