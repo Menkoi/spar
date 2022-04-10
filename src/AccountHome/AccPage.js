@@ -1,7 +1,6 @@
 import React from "react";
 import { MDBAnimation } from "mdbreact";
-import SparMap from './maps';
-
+import SparMaps from "./maps";
  
 
 function AccPage() {
@@ -9,12 +8,13 @@ function AccPage() {
 
     return(
         <div class="container">
-            <h1>Account Home Page</h1>
+            <h1>Welcome Guest!</h1>
         <MDBAnimation type="flash" infinite>
           <p>Under Construction</p>
         </MDBAnimation>
 
-        <SparMap></SparMap>
+        <SparMaps></SparMaps>
+
         </div>
     );
 }
