@@ -11,7 +11,7 @@ function AccInfo() {
               Lorem Ipsum
             </p>
             <footer class=" text-light">
-              Rank - <span class="badge badge-danger">58</span>
+              Rank - <span class="badge badge-danger">Amateur</span>
             </footer>
           </div>
         </div>
