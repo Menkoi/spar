@@ -3,6 +3,7 @@ import AccNav from "./AccNav";
 import { MDBAnimation } from "mdbreact";
 import SparMaps from "./maps";
 import AccInfo from "./AccInfo";
+import UserCards from './UserCards'
 
 function AccHome() {
 
@@ -17,6 +18,7 @@ function AccHome() {
           <AccInfo></AccInfo>
         </div>
 
+        <UserCards></UserCards>
         <SparMaps></SparMaps>
       </div>
     );

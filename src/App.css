@@ -68,6 +68,25 @@ padding: 10px;
   height: 50vh;
 }
 
+.scrolling-wrapper {
+  overflow-x: auto;
+}
+
+.card-block{
+	height: 40%;
+	background-color: #fff;
+	border: none;
+	background-position: center;
+	background-size: cover;
+	border-radius: 24px;
+}
+
+.card-body {
+  min-height: 100px;
+  min-width: 300px;
+  margin-right: 5px;
+}
+
 @keyframes fade {
   from {opacity: 0.0}
   to {opacity: 1}
