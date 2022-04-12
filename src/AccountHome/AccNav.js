@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 
 function AccNav() {
     return(
-        <nav class="navbar navbar-inverse elegant-color" sticky="top">
+        <nav class="navbar navbar-inverse elegant-color">
         <div class="container-fluid">
           <span class="navbar-brand mb-0 h1 text-light">
             <img src={Logo} className="NavPhoto" alt=""></img>

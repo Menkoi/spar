@@ -3,7 +3,7 @@ import Placeholder from "../img/sparbg.png"
 
 function UserCards() {
     return(
-        <div class="container-fluid py-4">
+        <div class="container-fluid">
             <h1>Top Users In Your Area</h1>
             
         <div class="row LoginCard">

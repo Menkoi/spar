@@ -17,7 +17,6 @@ function AccHome() {
           </MDBAnimation>
           <AccInfo></AccInfo>
         </div>
-
         <UserCards></UserCards>
         <SparMaps></SparMaps>
       </div>
