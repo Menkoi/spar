@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/spar/static/css/main.04db517a.css",
-    "main.js": "/spar/static/js/main.1c74611c.js",
+    "main.css": "/spar/static/css/main.9eabbb30.css",
+    "main.js": "/spar/static/js/main.23488dca.js",
     "static/js/787.c0f3922c.chunk.js": "/spar/static/js/787.c0f3922c.chunk.js",
     "static/media/NewYork.jpg": "/spar/static/media/NewYork.e75091eb6e395741aeae.jpg",
     "static/media/sparheaderMain.png": "/spar/static/media/sparheaderMain.1c277787ba6725f87ef0.png",
@@ -14,12 +14,12 @@
     "index.html": "/spar/index.html",
     "static/media/arrow_left.svg": "/spar/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/spar/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.04db517a.css.map": "/spar/static/css/main.04db517a.css.map",
-    "main.1c74611c.js.map": "/spar/static/js/main.1c74611c.js.map",
+    "main.9eabbb30.css.map": "/spar/static/css/main.9eabbb30.css.map",
+    "main.23488dca.js.map": "/spar/static/js/main.23488dca.js.map",
     "787.c0f3922c.chunk.js.map": "/spar/static/js/787.c0f3922c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04db517a.css",
-    "static/js/main.1c74611c.js"
+    "static/css/main.9eabbb30.css",
+    "static/js/main.23488dca.js"
   ]
 }
