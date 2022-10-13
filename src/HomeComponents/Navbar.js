@@ -1,5 +1,4 @@
 import React from "react";
-//import { MDBAnimation } from "mdbreact";
 import Logo from '../img/logo_nav.png';
 import {Link} from 'react-router-dom';
 
@@ -16,13 +15,13 @@ function Navbar() {
           <Link to="/" class="nav-link text-dark"> HOME</Link>
           </button>
         <button type="button" class="btn btn-light btn-sm" href="/LoginPage">
-          <Link to="/Login" class="nav-link text-dark"> LOGIN</Link>
+          <Link to="/about" class="nav-link text-dark"> About</Link>
           </button>
           <button type="button" class="btn btn-light btn-sm" href="/LoginPage">
-          <Link to="/spar" class="nav-link text-dark"> BTN 3</Link>
+          <Link to="/btn3" class="nav-link text-dark"> BTN 3</Link>
           </button>
           <button type="button" class="btn btn-light btn-sm" href="/LoginPage">
-          <Link to="/spar" class="nav-link text-dark"> BTN 4</Link>
+          <Link to="/btn4" class="nav-link text-dark"> BTN 4</Link>
           </button>
           <button type="button" class="btn btn-light btn-sm" href="/LoginPage">
           <Link to="/contact" class="nav-link text-dark">CONTACT</Link>

@@ -4,8 +4,10 @@ import {MapContainer, TileLayer, Marker} from 'react-leaflet';
 
 function SparMaps() {
   
+  //Api key
   const access_token = process.env.REACT_APP_ACCESS_TOKEN;
 
+  // ATL, GA
   const position = [33.7490, -84.3880]
 
     return (

@@ -3,9 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
 import {Routes, Route} from 'react-router-dom';
 import Home from "./HomeComponents/Home";
-import LoginPage from "./LoginComponents/LoginPage";
-import AccHome from './AccountHome/AccHome';
+import ContactPage from "./ContactComponents/ContactPage";
+import AccHome from './AboutComponents/AccHome';
 import Navbar from './HomeComponents/Navbar';
+import Footer from './HomeComponents/Footer';
 
 
 function App() {
@@ -14,11 +15,11 @@ function App() {
       <Navbar/>
       <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/spar" component={<Home/>} />
-      <Route path="/spar#" component={<Home/>} />
-      <Route path="/login" component={<LoginPage/>} />
-      <Route path="/AccHome" component={<AccHome/>} />
+      <Route path="/spar/" element={<Home/>} />
+      <Route path="/contact" element={<ContactPage/>} />
+      <Route path="/about" element={<AccHome/>} />
       </Routes>
+      <Footer/>
     </div>
     
   );

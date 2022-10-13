@@ -10,8 +10,8 @@ function AccInfo() {
             <p class="text-light">
               Lorem Ipsum
             </p>
-            <footer class=" text-light">
-              Rank - <span class="badge badge-danger">Amateur</span>
+            <footer class="text-light">
+              <p>Lorem Ipsum</p>
             </footer>
           </div>
         </div>
