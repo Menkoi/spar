@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/spar/static/css/main.9eabbb30.css",
-    "main.js": "/spar/static/js/main.23488dca.js",
+    "main.js": "/spar/static/js/main.8f495fd7.js",
     "static/js/787.c0f3922c.chunk.js": "/spar/static/js/787.c0f3922c.chunk.js",
-    "static/media/NewYork.jpg": "/spar/static/media/NewYork.e75091eb6e395741aeae.jpg",
-    "static/media/sparheaderMain.png": "/spar/static/media/sparheaderMain.1c277787ba6725f87ef0.png",
-    "static/media/Atlanta.jpg": "/spar/static/media/Atlanta.10e7d19508904002b9dc.jpg",
-    "static/media/Chicago.jpg": "/spar/static/media/Chicago.1cae928e2070a20e9699.jpg",
-    "static/media/PersonTwo.png": "/spar/static/media/PersonTwo.090080c17899be727330.png",
-    "static/media/PersonOne.png": "/spar/static/media/PersonOne.616543f30f4b384d5b12.png",
-    "static/media/logo_nav.png": "/spar/static/media/logo_nav.fa282bacdc08f9837c62.png",
-    "static/media/sparbg.png": "/spar/static/media/sparbg.1ae5c694e00b049bd822.png",
+    "static/media/NewYork.webp": "/spar/static/media/NewYork.af3aa776aadaa2961775.webp",
+    "static/media/sparheaderMain.webp": "/spar/static/media/sparheaderMain.15039f56676b48bf82e1.webp",
+    "static/media/Chicago.webp": "/spar/static/media/Chicago.2fa9f8697b15ed2ad857.webp",
+    "static/media/Atlanta.webp": "/spar/static/media/Atlanta.ccd3fddb740d76d0c74b.webp",
+    "static/media/PersonTwo.webp": "/spar/static/media/PersonTwo.9afc5ab146a06a9958fb.webp",
+    "static/media/PersonOne.webp": "/spar/static/media/PersonOne.4a5f898ebd994a9489cf.webp",
+    "static/media/logo_nav.webp": "/spar/static/media/logo_nav.f62acbc9eaefa47466ac.webp",
+    "static/media/sparbg.webp": "/spar/static/media/sparbg.2dc4a9864e0adaaded7a.webp",
     "index.html": "/spar/index.html",
     "static/media/arrow_left.svg": "/spar/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/spar/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
     "main.9eabbb30.css.map": "/spar/static/css/main.9eabbb30.css.map",
-    "main.23488dca.js.map": "/spar/static/js/main.23488dca.js.map",
+    "main.8f495fd7.js.map": "/spar/static/js/main.8f495fd7.js.map",
     "787.c0f3922c.chunk.js.map": "/spar/static/js/787.c0f3922c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9eabbb30.css",
-    "static/js/main.23488dca.js"
+    "static/js/main.8f495fd7.js"
   ]
 }
