@@ -1,25 +1,31 @@
 {
   "files": {
-    "main.css": "/spar/static/css/main.9eabbb30.css",
-    "main.js": "/spar/static/js/main.8f495fd7.js",
+    "main.css": "/spar/static/css/main.eac588e5.css",
+    "main.js": "/spar/static/js/main.e6d48a36.js",
     "static/js/787.c0f3922c.chunk.js": "/spar/static/js/787.c0f3922c.chunk.js",
+    "static/media/friends.webp": "/spar/static/media/friends.2d28e8337cffd6446693.webp",
+    "static/media/gym.webp": "/spar/static/media/gym.f4e2f8f731a3a5fb8ef5.webp",
     "static/media/NewYork.webp": "/spar/static/media/NewYork.af3aa776aadaa2961775.webp",
     "static/media/sparheaderMain.webp": "/spar/static/media/sparheaderMain.15039f56676b48bf82e1.webp",
     "static/media/Chicago.webp": "/spar/static/media/Chicago.2fa9f8697b15ed2ad857.webp",
+    "static/media/boxing.webp": "/spar/static/media/boxing.53b59337d662feab534d.webp",
     "static/media/Atlanta.webp": "/spar/static/media/Atlanta.ccd3fddb740d76d0c74b.webp",
     "static/media/PersonTwo.webp": "/spar/static/media/PersonTwo.9afc5ab146a06a9958fb.webp",
+    "static/media/driving.webp": "/spar/static/media/driving.89e2fa8ad50f02b3c361.webp",
     "static/media/PersonOne.webp": "/spar/static/media/PersonOne.4a5f898ebd994a9489cf.webp",
     "static/media/logo_nav.webp": "/spar/static/media/logo_nav.f62acbc9eaefa47466ac.webp",
+    "static/media/people.webp": "/spar/static/media/people.0e0cbe6185b45990e596.webp",
     "static/media/sparbg.webp": "/spar/static/media/sparbg.2dc4a9864e0adaaded7a.webp",
+    "static/media/about1.webp": "/spar/static/media/about1.f7955022458259e33901.webp",
     "index.html": "/spar/index.html",
     "static/media/arrow_left.svg": "/spar/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/spar/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.9eabbb30.css.map": "/spar/static/css/main.9eabbb30.css.map",
-    "main.8f495fd7.js.map": "/spar/static/js/main.8f495fd7.js.map",
+    "main.eac588e5.css.map": "/spar/static/css/main.eac588e5.css.map",
+    "main.e6d48a36.js.map": "/spar/static/js/main.e6d48a36.js.map",
     "787.c0f3922c.chunk.js.map": "/spar/static/js/787.c0f3922c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9eabbb30.css",
-    "static/js/main.8f495fd7.js"
+    "static/css/main.eac588e5.css",
+    "static/js/main.e6d48a36.js"
   ]
 }
