@@ -35,6 +35,10 @@ animation-name: fade;
 animation-duration: 1.5s;
 animation-iteration-count: 1;
 }
+.button {
+  float: right;
+}
+
 /**/
 .TestImg {
 width: 15%;

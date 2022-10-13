@@ -1,21 +1,24 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mdbreact/dist/css/mdb.css';
-import {HashRouter, Route} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import Home from "./HomeComponents/Home";
 import LoginPage from "./LoginComponents/LoginPage";
 import AccHome from './AccountHome/AccHome';
+import Navbar from './HomeComponents/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-      <HashRouter>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/spar" component={Home} />
-      <Route exact path="/Login" component={LoginPage} />
-      <Route exact path="/AccHome" component={AccHome} />
-      </HashRouter>
+      <Navbar/>
+      <Routes>
+      <Route path="/" element={<Home/>} />
+      <Route path="/spar" component={<Home/>} />
+      <Route path="/spar#" component={<Home/>} />
+      <Route path="/login" component={<LoginPage/>} />
+      <Route path="/AccHome" component={<AccHome/>} />
+      </Routes>
     </div>
     
   );

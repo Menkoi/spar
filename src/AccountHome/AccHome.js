@@ -3,7 +3,10 @@ import AccNav from "./AccNav";
 import { MDBAnimation } from "mdbreact";
 import SparMaps from "./maps";
 import AccInfo from "./AccInfo";
-import UserCards from './UserCards'
+import UserCards from './UserCards';
+import Test from "./test"
+import Footer from '../HomeComponents/Footer';
+
 
 function AccHome() {
 
@@ -17,8 +20,12 @@ function AccHome() {
           </MDBAnimation>
           <AccInfo></AccInfo>
         </div>
+
         <UserCards></UserCards>
         <SparMaps></SparMaps>
+        <Test></Test>
+
+        <Footer></Footer>
       </div>
     );
 }
