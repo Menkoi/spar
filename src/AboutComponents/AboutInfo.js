@@ -1,5 +1,5 @@
 import React from 'react';
-import Placeholder from '../img/sparbg.png';
+import Placeholder from '../img/sparbg.webp';
 
 function AccInfo() {
     return(

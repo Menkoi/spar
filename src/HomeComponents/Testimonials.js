@@ -1,6 +1,6 @@
 import React from "react";
-import PersonOne from "../img/PersonOne.png";
-import PersonTwo from "../img/PersonTwo.png";
+import PersonOne from "../img/PersonOne.webp";
+import PersonTwo from "../img/PersonTwo.webp";
 
 
 function Testimonials () {

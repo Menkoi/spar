@@ -1,7 +1,7 @@
 import React from "react";
-import Atlanta from "../img/Atlanta.jpg";
-import NewYork from "../img/NewYork.jpg";
-import Chicago from "../img/Chicago.jpg";
+import Atlanta from "../img/Atlanta.webp";
+import NewYork from "../img/NewYork.webp";
+import Chicago from "../img/Chicago.webp";
 
 function Cards() {
 return (

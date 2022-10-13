@@ -1,5 +1,5 @@
 import React from "react";
-import SparHeader from "../img/sparheaderMain.png";
+import SparHeader from "../img/sparheaderMain.webp";
 import HeaderText from "./HeaderText";
 import Cards from './Cards';
 //import Teams from './Teams';
