@@ -15,45 +15,30 @@ function UserCards() {
             <div class="col">
               <div class="card shadow-md">
                 <img src={friends} class="card-img-top"  alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Lorem Ipsum</h5>
-                </div>
               </div>
             </div>
     
             <div class="col">
               <div class="card shadow-md">
                 <img src={driving} class="card-img-top"  alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Lorem Ipsum</h5>
-                </div>
               </div>
             </div>
 
             <div class="col">
               <div class="card shadow-md">
                 <img src={Gym} class="card-img-top"  alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Lorem Ipsum</h5>
-                </div>
               </div>
             </div>
 
             <div class="col">
               <div class="card shadow-md">
                 <img src={boxing} class="card-img-top"  alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Lorem Ipsum</h5>
-                </div>
               </div>
             </div>
 
             <div class="col">
               <div class="card shadow-md">
                 <img src={people} class="card-img-top"  alt="..." />
-                <div class="card-body">
-                  <h5 class="card-title">Lorem Ipsum</h5>
-                </div>
               </div>
             </div>
           </div>
