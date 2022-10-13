@@ -14,6 +14,7 @@ function AccInfo() {
               <p>Lorem Ipsum</p>
             </footer>
           </div>
+          <div className="spacer"></div>
         </div>
         </div>
     )

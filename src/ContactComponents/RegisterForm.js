@@ -8,8 +8,8 @@ function RegisterForm() {
         <div class="card text-center" className="Testmoinal">
           <div class="card-body elegant-color" className="TestBody">
             <form>
-              <p className="h4 text-center py-4 text-light">Register</p>
-              <label className="text-light">Username</label>
+              <p className="h4 text-center py-4 text-light">Contact Us!</p>
+              <label className="text-light">Name</label>
               <input type="name" className="form-control" />
               <br />
               <label className="text-light">Email</label>
@@ -18,16 +18,13 @@ function RegisterForm() {
               <label className="text-light">Confirm Email</label>
               <input type="email" className="form-control" />
               <br />
-              <label className="text-light">Create Password</label>
-              <input type="password" className="form-control" />
-
               <div className="text-center py-4 mt-3">
                 <button
                   type="button"
                   class="btn danger-color-dark btn-md text-light"
                 >
                   {" "}
-                  Register
+                  Send
                 </button>
               </div>
             </form>

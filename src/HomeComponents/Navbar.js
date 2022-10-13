@@ -18,7 +18,7 @@ function Navbar() {
           <Link to="/about" class="nav-link text-dark"> About</Link>
           </button>
           <button type="button" class="btn btn-light btn-sm" href="/LoginPage">
-          <Link to="/btn3" class="nav-link text-dark"> BTN 3</Link>
+          <Link to="/gallery" class="nav-link text-dark">GALLERY</Link>
           </button>
           <button type="button" class="btn btn-light btn-sm" href="/LoginPage">
           <Link to="/btn4" class="nav-link text-dark"> BTN 4</Link>

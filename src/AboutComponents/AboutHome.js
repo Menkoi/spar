@@ -1,6 +1,5 @@
 import React from "react";
-import AccInfo from "./AccInfo";
-import UserCards from './UserCards';
+import AboutInfo from "./AboutInfo";
 
 function AccHome() {
 
@@ -8,9 +7,8 @@ function AccHome() {
       <div>
         <div class="container">
           <h1>About</h1>
-          <AccInfo></AccInfo>
+          <AboutInfo></AboutInfo>
         </div>
-        <UserCards></UserCards>
       </div>
     );
 }
