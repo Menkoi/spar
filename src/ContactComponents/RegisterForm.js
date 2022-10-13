@@ -9,14 +9,14 @@ function RegisterForm() {
           <div class="card-body elegant-color" className="TestBody">
             <form>
               <p className="h4 text-center py-4 text-light">Contact Us!</p>
-              <label className="text-light">Name</label>
+              <label className="text-light">Email</label>
               <input type="name" className="form-control" />
               <br />
-              <label className="text-light">Email</label>
+              <label className="text-light">Subject</label>
               <input type="email" className="form-control" />
               <br />
-              <label className="text-light">Confirm Email</label>
-              <input type="email" className="form-control" />
+              <label className="text-light">Message</label>
+              <input type="text" className="form-control" />
               <br />
               <div className="text-center py-4 mt-3">
                 <button

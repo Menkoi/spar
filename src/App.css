@@ -82,6 +82,18 @@ padding: 10px;
 	border-radius: 24px;
 }
 
+.gallery img {
+  display: grid;
+  margin-left: 5px;
+  grid-template-columns: repeat(6,1fr);
+  grid-gap: 2px;
+  justify-content: center;
+}
+
+.boxing {
+  width: 50%;
+}
+
 .card-body {
   min-height: 100px;
   min-width: 300px;

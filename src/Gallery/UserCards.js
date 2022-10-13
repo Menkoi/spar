@@ -1,5 +1,10 @@
 import React from "react";
-import Placeholder from "../img/sparbg.webp"
+import Placeholder from "../img/sparbg.webp";
+import friends from '../img/friends.webp';
+import driving from '../img/driving.webp';
+import boxing from '../img/boxing.webp';
+import people from '../img/people.webp';
+import Gym from '../img/gym.webp';
 
 function UserCards() {
     return(
@@ -9,7 +14,7 @@ function UserCards() {
           <div class="scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2">
             <div class="col">
               <div class="card shadow-md">
-                <img src={Placeholder} class="card-img-top"  alt="..." />
+                <img src={friends} class="card-img-top"  alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Lorem Ipsum</h5>
                 </div>
@@ -18,7 +23,7 @@ function UserCards() {
     
             <div class="col">
               <div class="card shadow-md">
-                <img src={Placeholder} class="card-img-top"  alt="..." />
+                <img src={driving} class="card-img-top"  alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Lorem Ipsum</h5>
                 </div>
@@ -27,7 +32,7 @@ function UserCards() {
 
             <div class="col">
               <div class="card shadow-md">
-                <img src={Placeholder} class="card-img-top"  alt="..." />
+                <img src={Gym} class="card-img-top"  alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Lorem Ipsum</h5>
                 </div>
@@ -36,7 +41,7 @@ function UserCards() {
 
             <div class="col">
               <div class="card shadow-md">
-                <img src={Placeholder} class="card-img-top"  alt="..." />
+                <img src={boxing} class="card-img-top"  alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Lorem Ipsum</h5>
                 </div>
@@ -45,7 +50,7 @@ function UserCards() {
 
             <div class="col">
               <div class="card shadow-md">
-                <img src={Placeholder} class="card-img-top"  alt="..." />
+                <img src={people} class="card-img-top"  alt="..." />
                 <div class="card-body">
                   <h5 class="card-title">Lorem Ipsum</h5>
                 </div>
