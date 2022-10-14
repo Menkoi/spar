@@ -1,13 +1,13 @@
 import React from "react";
 //import LoginForm from"./LoginForm";
-import RegisterForm from "./RegisterForm";
+import ContactForm from "./ContactForm";
 import SparMaps from "./maps";
 
 function LoginPage() {
     
     return(
         <div>
-            <RegisterForm></RegisterForm>
+            <ContactForm></ContactForm>
             <SparMaps/>
         </div>
     );

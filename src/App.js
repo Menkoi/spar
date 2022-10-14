@@ -6,6 +6,7 @@ import Home from "./HomeComponents/Home";
 import ContactPage from "./ContactComponents/ContactPage";
 import AboutHome from './AboutComponents/AboutHome';
 import Gallery from './Gallery/Gallery';
+import Banned from './Future/Banned';
 import Navbar from './HomeComponents/Navbar';
 import Footer from './HomeComponents/Footer';
 
@@ -20,6 +21,7 @@ function App() {
       <Route path="/contact" element={<ContactPage/>} />
       <Route path="/about" element={<AboutHome/>} />
       <Route path="/gallery" element={<Gallery/>} />
+      <Route path="/banned" element={<Banned/>} />
       </Routes>
       <Footer/>
     </div>

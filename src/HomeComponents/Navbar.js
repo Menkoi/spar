@@ -21,7 +21,7 @@ function Navbar() {
           <Link to="/gallery" class="nav-link text-dark">GALLERY</Link>
           </button>
           <button type="button" class="btn btn-light btn-sm" href="/LoginPage">
-          <Link to="/btn4" class="nav-link text-dark"> BTN 4</Link>
+          <Link to="/banned" class="nav-link text-dark"> BANNED</Link>
           </button>
           <button type="button" class="btn btn-light btn-sm" href="/LoginPage">
           <Link to="/contact" class="nav-link text-dark">CONTACT</Link>

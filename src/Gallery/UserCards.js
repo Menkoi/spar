@@ -1,5 +1,5 @@
 import React from "react";
-import Placeholder from "../img/sparbg.webp";
+//import Placeholder from "../img/sparbg.webp";
 import friends from '../img/friends.webp';
 import driving from '../img/driving.webp';
 import boxing from '../img/boxing.webp';
