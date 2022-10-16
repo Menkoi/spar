@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/spar/static/css/main.eac588e5.css",
-    "main.js": "/spar/static/js/main.fb92150b.js",
+    "main.css": "/spar/static/css/main.d3bd7832.css",
+    "main.js": "/spar/static/js/main.5b98a93d.js",
     "static/js/787.c0f3922c.chunk.js": "/spar/static/js/787.c0f3922c.chunk.js",
     "static/media/friends.webp": "/spar/static/media/friends.2d28e8337cffd6446693.webp",
     "static/media/gym.webp": "/spar/static/media/gym.f4e2f8f731a3a5fb8ef5.webp",
     "static/media/NewYork.webp": "/spar/static/media/NewYork.af3aa776aadaa2961775.webp",
     "static/media/sparheaderMain.webp": "/spar/static/media/sparheaderMain.15039f56676b48bf82e1.webp",
     "static/media/Chicago.webp": "/spar/static/media/Chicago.2fa9f8697b15ed2ad857.webp",
+    "static/media/light.webp": "/spar/static/media/light.f6257ad07ae8159fd442.webp",
     "static/media/boxing.webp": "/spar/static/media/boxing.53b59337d662feab534d.webp",
     "static/media/Atlanta.webp": "/spar/static/media/Atlanta.ccd3fddb740d76d0c74b.webp",
     "static/media/PersonTwo.webp": "/spar/static/media/PersonTwo.9afc5ab146a06a9958fb.webp",
@@ -19,12 +20,12 @@
     "index.html": "/spar/index.html",
     "static/media/arrow_left.svg": "/spar/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
     "static/media/arrow_right.svg": "/spar/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
-    "main.eac588e5.css.map": "/spar/static/css/main.eac588e5.css.map",
-    "main.fb92150b.js.map": "/spar/static/js/main.fb92150b.js.map",
+    "main.d3bd7832.css.map": "/spar/static/css/main.d3bd7832.css.map",
+    "main.5b98a93d.js.map": "/spar/static/js/main.5b98a93d.js.map",
     "787.c0f3922c.chunk.js.map": "/spar/static/js/787.c0f3922c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eac588e5.css",
-    "static/js/main.fb92150b.js"
+    "static/css/main.d3bd7832.css",
+    "static/js/main.5b98a93d.js"
   ]
 }
