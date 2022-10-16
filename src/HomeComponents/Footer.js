@@ -1,6 +1,4 @@
-import {FaGithub} from "react-icons/fa";
-import {FaLinkedin} from "react-icons/fa"; 
-import {SiMicrosoftoutlook} from "react-icons/si";
+import {FaGlobeAmericas} from "react-icons/fa"; 
 
 
 function Footer() {
@@ -10,9 +8,7 @@ function Footer() {
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-left"></div>
                     <div class="col-lg-4 my-2 my-lg-0">
-                        <a class="btn btn-light btn-social mx-3 shadow-lg" href="https://github.com/Menkoi" target='_blank' rel="noreferrer"><FaGithub/></a>
-                        <a class="btn btn-light btn-social mx-3 shadow-lg" href="https://www.linkedin.com/in/brandon-burton-9b59a2215/"target='_blank' rel="noreferrer"><FaLinkedin/></a>
-                        <a class="btn btn-light btn-social mx-3 shadow-lg" href="mailto:celaeon@gmail.com"><SiMicrosoftoutlook/></a>
+                        <p class="text-light"><FaGlobeAmericas/> -2021230433- <FaGlobeAmericas/></p>
                     </div>
                 </div>
             </div>

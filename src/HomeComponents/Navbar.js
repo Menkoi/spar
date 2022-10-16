@@ -26,7 +26,6 @@ function Navbar() {
           <button type="button" class="btn btn-light btn-sm" href="/LoginPage">
           <Link to="/contact" class="nav-link text-dark">CONTACT</Link>
           </button>
-
         </div>
       </div>
     </nav>

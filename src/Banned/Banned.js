@@ -1,6 +1,5 @@
 import axios from 'axios';
 import React, {useState, useEffect} from "react";
-//import Earth from '../img/Earth.webp';
 
 export default function Banned() {
     const [data, setData] = useState([]);
@@ -27,7 +26,7 @@ export default function Banned() {
 
     return(
         <div className='banned'>
-            <h1>Banned List</h1>
+            <h1>Banned Users</h1>
             <p>International Red Alert For Wanted Persons
                 <br></br>
             Information provided by Interpol Red Notices
@@ -41,9 +40,9 @@ export default function Banned() {
                 <div class="card text-center" className="Testmoinal">
                     <div class="card-body elegant-color" className="TestBody">
                     <img src={info._links.thumbnail.href} alt="" className="TestImg"/>
-                    <h1 class="text-light">{info.forename} - {info.nationalities}</h1>
+                    <h1 class="text-light">{info.forename}</h1>
                     <p class="text-light">Country: {info.nationalities}</p>
-                    <p class="text-light">ID: {info.entity_id} </p>
+                    <p class="text-light">User ID: {info.entity_id} </p>
                     </div>
                 </div>
             </div>

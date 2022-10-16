@@ -6,7 +6,7 @@ import Home from "./HomeComponents/Home";
 import ContactPage from "./ContactComponents/ContactPage";
 import AboutHome from './AboutComponents/AboutHome';
 import Gallery from './Gallery/Gallery';
-import Banned from './Future/Banned';
+import Banned from './Banned/Banned';
 import Navbar from './HomeComponents/Navbar';
 import Footer from './HomeComponents/Footer';
 

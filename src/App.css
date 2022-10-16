@@ -82,12 +82,20 @@ padding: 10px;
 	border-radius: 24px;
 }
 
-.gallery img {
+.gallery {
   display: grid;
-  margin-left: 5px;
-  grid-template-columns: repeat(6,1fr);
+  margin: 20px;
+  grid-template-columns: repeat(3,1fr);
   grid-gap: 2px;
   justify-content: center;
+}
+
+.gallery img {
+  width: 400px;
+  border-radius: 5px;
+  margin-top: 25px;
+  -webkit-box-shadow: 7px 9px 15px 5px #000000; 
+  box-shadow: 7px 9px 15px 5px #000000;
 }
 
 .boxing {
