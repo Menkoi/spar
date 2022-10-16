@@ -17,6 +17,10 @@ You can view the website here: https://menkoi.github.io/spar/
 - Dontenv
 - Axios
 
+## API
+- Interpol Red Alert
+- Open Street Maps
+
 ## Rules
 Students can choose site topic on their own, and should collect all necessary
 materials themselves.
