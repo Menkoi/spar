@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+<img src="https://i.imgur.com/cUWP3MY.png"/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Web Design Final Project
 
-## Available Scripts
+## Description
+My final project for web design is a single page application about an app called "Spar".
 
-In the project directory, you can run:
+## Instructions
+You can view the website here: https://menkoi.github.io/spar/
 
-### `npm start`
+## Technologies
+- React
+- React Router Dom
+- React Icons
+- React Leaflet 
+- Bootstrap
+- Dontenv
+- Axios
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## API
+- Interpol Red Alert
+- Open Street Maps
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Rules
+Students can choose site topic on their own, and should collect all necessary
+materials themselves.
+Topics could be: computer shop, website of tourist organization, newspaper
+blog (sport, news etc.), website about movies, games or movies.
+Students can decide on their own number of pages, content, design, navigation
+and functionality. Studets should create minimum five pages at least (for
+example: home, about, portfolio, gallery/activity/videos, contact with some
+form)
 
-### `npm test`
+During web site implementation, it is necessary to pay attention to the
+following:
+- Site topic
+- Site organization (CSS3)
+- Navigation
+- Font-size
+- Images
+You can use:
+ 1.) https://pixabay.com/
+ 2.) https://unsplash.com/
+ 3.) https://www.pexels.com/
+ 
+- Number of pages and connections between them (at least five pages -
+home, about, contact, one page with form)
+- CSS3 must be used for design (you can use Bootstrap, Google Material
+or any other frameworks)
+- JavaScript must be used for adding interactivity (sliders, animations
+etc.)
+- One page must contain form (for example, ordering some products,
+ordering flight tickets, or similar, with full JavaScript validation
+of user input, but not the same as the example which is covered during
+classes)
+- At least one Ajax call to external API (any open API can be used, for
+example to get weather forecast, movies, sports etc.).
+- About page is mandatory, should point to the page where basic
+information about student is listed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact Me
+  - Menkoi
+  - https://github.com/Menkoi
+  - celaeon@gmail.com
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
