@@ -37,7 +37,7 @@ export default function Banned() {
 
         {data.map((info) => (
             <div class="container">
-                <div class="card text-center" className="Testmoinal">
+                <div class="card text-center" className="Testimoinal">
                     <div class="card-body elegant-color" className="TestBody">
                     <h1 class="text-light">{info.forename}</h1>
                     <p class="text-light">Country: {info.nationalities}</p>

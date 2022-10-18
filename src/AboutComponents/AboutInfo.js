@@ -9,7 +9,7 @@ import {SiMicrosoftoutlook} from "react-icons/si";
 function AccInfo() {
   return (
     <div className="container">
-      <div class="card text-center" className="Testmoinal">
+      <div class="card text-center" className="Testimoinal">
         <div class="card-body elegant-color" className="TestBody">
           <img src={about1} className="TestImg" alt=""></img>
           <h1 class="text-light">Brandon Burton - 2021230433</h1>

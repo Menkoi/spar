@@ -10,7 +10,7 @@ function Testimonials () {
         <p>
           Dont believe us? Look at what users are saying about about Spar!
         </p>
-        <div class="card text-center" className="Testmoinal">
+        <div class="card text-center" className="Testimoinal">
           <div class="card-body elegant-color" className="TestBody">
             <img src={PersonOne} className="TestImg" alt=""></img>
             <p class="text-light">
@@ -23,7 +23,7 @@ function Testimonials () {
           </div>
         </div>
 
-        <div class="card text-center" className="Testmoinal">
+        <div class="card text-center" className="Testimoinal">
           <div class="card-body elegant-color" className="TestBody">
             <img src={PersonTwo} className="TestImg" alt=""></img>
             <p class="text-light">
