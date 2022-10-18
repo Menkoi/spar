@@ -3,7 +3,7 @@ import React from "react";
 import ContactForm from "./ContactForm";
 import SparMaps from "./maps";
 
-function LoginPage() {
+function ContactPage() {
     
     return(
         <div>
@@ -13,4 +13,4 @@ function LoginPage() {
     );
 }
 
-export default LoginPage;
+export default ContactPage;

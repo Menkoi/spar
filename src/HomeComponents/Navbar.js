@@ -3,7 +3,6 @@ import Logo from '../img/logo_nav.webp';
 import {Link} from 'react-router-dom';
 
 function Navbar() {
-
   return (
     <nav class="navbar navbar-inverse elegant-color">
       <div class="container-fluid">

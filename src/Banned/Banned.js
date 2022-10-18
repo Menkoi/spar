@@ -11,7 +11,7 @@ export default function Banned() {
          await axios.get(interpolApi)
          .then(res => {
             //json data
-            //console.log(res.data._embedded.notices)
+            console.log(res.data._embedded.notices)
             setData(res.data._embedded.notices)
         })
         // Catch Error
@@ -28,7 +28,7 @@ export default function Banned() {
         <div className='banned'>
             <h1>Banned Users</h1>
             <p>International Red Alert For Wanted Persons
-                <br></br>
+            <br></br>
             Information provided by Interpol Red Notices
             <br></br>
             To learn more visit 
@@ -39,7 +39,6 @@ export default function Banned() {
             <div class="container">
                 <div class="card text-center" className="Testmoinal">
                     <div class="card-body elegant-color" className="TestBody">
-                    <img src={info._links.thumbnail.href} alt="" className="TestImg"/>
                     <h1 class="text-light">{info.forename}</h1>
                     <p class="text-light">Country: {info.nationalities}</p>
                     <p class="text-light">User ID: {info.entity_id} </p>
