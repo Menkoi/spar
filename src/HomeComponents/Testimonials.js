@@ -5,7 +5,7 @@ import PersonTwo from "../img/PersonTwo.webp";
 
 function Testimonials () {
     return (
-      <div class="container">
+      <div className="container">
         <h1 className="OurTeams">Testimonials</h1>
         <p>
           Dont believe us? Look at what users are saying about about Spar!

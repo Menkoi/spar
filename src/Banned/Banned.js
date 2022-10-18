@@ -35,10 +35,10 @@ export default function Banned() {
             <a href='https://www.interpol.int/How-we-work/Notices/About-Red-Notices' target="_blank" rel="noreferrer"> Interpol.int</a>
             </p>
 
-        {data.map((info) => (
-            <div class="container">
+        {data.map((info, index) => (
+            <div class="container" key={index}>
                 <div class="card text-center" className="Testimoinal">
-                    <div class="card-body elegant-color" className="TestBody">
+                    <div class="card-body" className="TestBody">
                     <h1 class="text-light">{info.forename}</h1>
                     <p class="text-light">Country: {info.nationalities}</p>
                     <p class="text-light">User ID: {info.entity_id} </p>
