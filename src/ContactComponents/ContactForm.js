@@ -41,7 +41,7 @@ function RegisterForm() {
               <div className="text-center py-4 mt-3">
                 <button
                   type="button"
-                  class="btn danger-color-dark btn-md text-light"
+                  class="btn bg-dark btn-md text-light"
                   onClick={valid}
                 >
                   Send

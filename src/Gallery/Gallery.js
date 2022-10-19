@@ -11,6 +11,7 @@ import light from '../img/light.webp';
 export default function Gallery() {
     return(
         <div class="container">
+          <h1>Gallery</h1>
         <div class="row">
           <div class="row row-cols-1 row-cols-lg-3 g-4">
             <div class="col">

@@ -1,6 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'mdbreact/dist/css/mdb.css';
 import {Routes, Route} from 'react-router-dom';
 import Home from "./HomeComponents/Home";
 import ContactPage from "./ContactComponents/ContactPage";

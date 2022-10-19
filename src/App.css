@@ -2,6 +2,9 @@
 /* Body */
 .App {
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .App h1 {
@@ -9,17 +12,24 @@
 }
 
 .App p {
-  font-size: 150%;
+  font-size: 100%;
   padding-right: 20%;
   padding-left: 20%;
   padding-top: 10px;
 }
 
 /* Navbar */
+.navbar {
+  background-color: #2E2E2E;
+}
+
+.navButton{
+  margin: 5px;
+}
+
 .NavPhoto {
     width: 100px;
     height: 45px;
-    position: sticky; top:0;
 }
 
 /* Main Banner */
@@ -48,8 +58,9 @@ border-radius: 50%;
   background: -moz-linear-gradient(45deg, #D80000 0%, #C00000 20%, #2E2E2E 100%);
   background: -webkit-linear-gradient(45deg, #D80000 0%, #C00000 20%, #2E2E2E 100%);
   background: linear-gradient(45deg, #D80000 0%, #C00000 20%, #2E2E2E 100%);
-border-radius: 5px;
-padding: 10px;
+  box-shadow: 7px 9px 15px 5px #000000;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 /* Cards */
@@ -69,19 +80,23 @@ padding: 10px;
 }
 
 /* Gallery */
-
 .galleryImg {
   width: 400px;
   border-radius: 5px;
   margin-top: 25px;
   margin-bottom: 25px;
-  -webkit-box-shadow: 7px 9px 15px 5px #000000; 
   box-shadow: 7px 9px 15px 5px #000000;
 }
 
 .boxing {
   width: 50%;
 }
+
+/* Footer */
+.footer {
+  background-color: #2E2E2E;
+}
+
 /* Map */
 .leaflet-container {
   width: 100%;
