@@ -58,14 +58,3 @@ example to get weather forecast, movies, sports etc.).
 - About page is mandatory, should point to the page where basic
 information about student is listed.
 
-
-
-
-
-
-
-## Contact Me
-  - Menkoi
-  - https://github.com/Menkoi
-  - celaeon@gmail.com
-
